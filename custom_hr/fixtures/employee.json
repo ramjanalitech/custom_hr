@@ -1,0 +1,13 @@
+[
+	{
+		"doctype":"Custom Field",
+		"dt":"Employee",
+		"fieldname":"attendance_approver",
+		"name":"attendance_approver",
+		"module":"custom_hr",
+		"fieldtype":"Link",
+		"insert_after":"shift_request_approver",
+		"label":"Attendance Approver",
+        "options": "User"
+    	}
+]

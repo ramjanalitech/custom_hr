@@ -118,6 +118,17 @@ app_license = "mit"
 # 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
 
+doctype_js = {
+    "Expense Claim": "js/expense_claim.js",
+    "Leave Application": "js/leave_application.js",
+    "Shift Request": "js/shift_request.js",
+    "Attendance Request": "js/attendance_request.js"
+}
+
+# doctype_js = {
+#     "Expense Claim": "js/expense_claim.js"
+# }
+
 # Document Events
 # ---------------
 # Hook on document methods and events

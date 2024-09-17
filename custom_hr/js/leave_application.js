@@ -1,10 +1,4 @@
 frappe.ui.form.on('Leave Application', {
-    refresh: function(frm) {
-        frm.add_custom_button(__('Whatsapp SMS'), function() {
-            // Add logic for Whatsapp SMS here if required
-        });
-    },
-
     before_submit: async function(frm) {
         const current_user = frappe.session.user;
 

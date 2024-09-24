@@ -149,7 +149,7 @@ doctype_js = {
 # 		"custom_hr.tasks.all"
 # 	],
 # 	"daily": [
-# 		"custom_hr.tasks.daily"
+# 		"custom_hr.tasks.daily".
 # 	],
 # 	"hourly": [
 # 		"custom_hr.tasks.hourly"
@@ -161,6 +161,12 @@ doctype_js = {
 # 		"custom_hr.tasks.monthly"
 # 	],
 # }
+
+scheduler_events = {
+    "daily": [
+        "custom_hr.api.api.update_last_sync_of_checkin"
+    ]
+}
 
 # Testing
 # -------
